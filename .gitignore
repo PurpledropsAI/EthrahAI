@@ -1,0 +1,64 @@
+# Node
+node_modules/
+
+# pnpm store
+.pnpm-debug.log
+.pnpm-store
+
+# Vite / Build
+dist/
+dist/
+dist/spa/
+dist/server/
+
+# Env
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac artifact
+.AppleDouble
+.LSOverride
+
+# Jest / Vitest
+coverage/
+
+# Misc
+*.local
+
+# Optional lockfiles
+# If you use pnpm, keep pnpm-lock.yaml, otherwise uncomment to ignore
+# package-lock.json
+# yarn.lock
+
+# Generated assets
+public/robots.txt
+
+# secrets
+secrets.json
+
+# Ignore production build server output
+dist/
+
+# Ignore storybook build
+storybook-static/
