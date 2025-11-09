@@ -25,21 +25,21 @@ export default function Services() {
       <Header />
       
       {/* Hero Section */}
-  <section className="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-10 py-12 md:py-16 relative">
+  <section className="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-10 sm:py-12 md:py-16 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="relative w-full max-w-[687px] mx-auto lg:mx-0">
             <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/f9c216a117b4ef2a8352ee46fef665ca8bb0ce6a?width=1374" 
+              src="services-logo.png" 
               alt="AI Visualization" 
-              className="w-full h-auto aspect-square"
+              className="w-full "
             />
           </div>
           
-          <div className="space-y-6 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-[48px] leading-tight md:leading-[60px] font-black text-[#141414] tracking-[-2px]">
+          <div className="sm:space-y-6 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-[48px] leading-tight md:leading-[60px] font-black text-[#141414] sm:tracking-[-2px]">
               Transforming Businesses with AI
             </h1>
-            <p className="text-base leading-6 text-[#141414] max-w-[437px] mx-auto lg:mx-0">
+            <p className="text-[14px] sm:text-[16px] text-base sm:leading-6 text-[#141414] max-w-[437px] mx-auto lg:mx-0">
               Innovate AI provides cutting-edge artificial intelligence solutions tailored to meet the unique needs of your business. From automating processes to enhancing customer experiences, we empower you to achieve more.
             </p>
             <button className="px-4 h-10 bg-[#141414] text-[#FAFAFA] text-sm font-bold leading-[21px] rounded-lg hover:bg-[#2a2a2a] transition-colors">
@@ -54,7 +54,7 @@ export default function Services() {
         <h2 className="text-[22px] leading-[28px] font-bold text-[#141414] mb-4">
           About ETHRAH AI
         </h2>
-        <p className="text-sm leading-6 text-[#141414] max-w-[960px]">
+        <p className="text-sm leading-6 text-[#141414] max-w-[960px] text-justify">
           Ethrah AI is a forward-thinking Dubai-based AI consultancy engineered to deliver transformative solutions for ambitious enterprises. Our specialist team of AI architects, strategists, and innovators operates with singular purpose—crafting exceptional, bespoke AI services that drive measurable business impact. We partner with clients as trusted advisors, combining deep technical expertise with genuine commitment to your success. Our vision is unambiguous: to establish Ethrah AI as the region's premier AI solutions partner, recognized for innovation, reliability, and unwavering client-centricity.
         </p>
       </section>
@@ -148,7 +148,7 @@ export default function Services() {
               description: " Predicting future trends with AI time series forecasting."
             },
           ].map((service, index) => (
-            <div key={index} className="p-4 rounded-lg border border-[#E0E0E0] bg-white space-y-3">
+            <div key={index} className="p-4 rounded-lg border border-[#E0E0E0] bg-white sm:space-y-3">
               <div className="w-6 h-6 text-[#141414]">
                 {service.icon}
               </div>
@@ -211,7 +211,7 @@ export default function Services() {
             },
 
           ].map((item, index) => (
-            <div key={index} className="p-4 rounded-lg border border-[#E0E0E0] bg-white space-y-3">
+            <div key={index} className="p-4 rounded-lg border border-[#E0E0E0] bg-white sm:space-y-3">
               <div className="w-6 h-6 text-[#141414]">
                 {item.icon}
               </div>
@@ -282,7 +282,7 @@ export default function Services() {
       </section>
 
       {/* FAQ Section */}
-      <section className="max-w-[1280px] mx-auto px-10 py-12">
+      <section className="max-w-[1280px] mx-auto p-5 sm:px-10 py-12">
         <h2 className="text-[22px] leading-[28px] font-bold text-[#141414] text-center mb-6">
           FAQ
         </h2>
@@ -341,8 +341,8 @@ export default function Services() {
 
       {/* CTA Section */}
       <section className="max-w-[1280px] mx-auto px-10 py-20">
-        <div className="max-w-[808px] mx-auto text-center space-y-8 bg-white p-20 rounded-lg">
-          <h2 className="text-[36px] leading-[45px] font-black text-[#141414] tracking-[-1px]">
+        <div className="max-w-[808px] mx-auto text-center space-y-8 bg-white sm:p-20 rounded-lg">
+          <h2 className="text-[36px] leading-[45px] font-black text-[#141414] sm:tracking-[-1px]">
             Ready to Transform Your Business With AI?
           </h2>
           <button className="px-5 h-12 bg-[#141414] text-[#FAFAFA] text-base font-bold leading-6 rounded-lg hover:bg-[#2a2a2a] transition-colors">

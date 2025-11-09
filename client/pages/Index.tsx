@@ -138,14 +138,15 @@ export default function Index() {
         </div>
         
         <div className="max-w-[608px] space-y-8">
-          <div className="space-y-4">
-            <h3 className="text-base font-bold text-[#141414] leading-[34px]">
+          <div className="space-y-2 sm:space-y-4">
+            <h3 className="text-base font-bold text-[#141414] sm:leading-[34px]">
               AI-Powered Licensing & Credential Automation for Healthcare Professionals
             </h3>
             <p className="text-sm leading-[21px] text-[#737373]">
               Accelerating healthcare licensing with AI-powered automation, Ethrah AI's credential sol..
             </p>
-            <button className="px-4 h-8 bg-[#EDEDED] text-[#141414] text-sm font-medium leading-[21px] rounded-lg hover:bg-[#e0e0e0] transition-colors">
+            <button className="px-4 h-8 bg-[#EDEDED] text-[#141414] text-sm font-medium leading-[21px] rounded-lg hover:bg-[#e0e0e0] transition-colors"
+            onClick={()=> window.location.href="/case-studies/automation"}>
               Learn More
             </button>
           </div>
@@ -246,9 +247,7 @@ export default function Index() {
                 </p>
               </div>
             </div>
-          </div>
-          
-          <div className="p-4 rounded-lg border border-[#DBDBDB] bg-[#FAFAFA] space-y-3 max-w-[200px]">
+          <div className="p-4 rounded-lg border border-[#DBDBDB] bg-[#FAFAFA] space-y-3">
             <svg width="24" height="24" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" clipRule="evenodd" d="M16.5 0H1.5C0.671573 0 0 0.671573 0 1.5V7.00969C0 15.4106 7.10812 18.1978 8.53125 18.6712C8.8352 18.7746 9.1648 18.7746 9.46875 18.6712C10.8938 18.1978 18 15.4106 18 7.00969V1.5C18 0.671573 17.3284 0 16.5 0Z" fill="#141414"/>
             </svg>
@@ -261,11 +260,13 @@ export default function Index() {
               </p>
             </div>
           </div>
+          </div>
+          
         </div>
       </section>
 
       {/* How We Work */}
-      <section className="max-w-[1280px] mx-auto px-10 py-12">
+      <section className="max-w-[1280px] mx-auto p-5 sm:px-10 py-12">
         <div className="text-center mb-8">
           <h2 className="text-[35px] leading-[28px] font-bold text-[#000] mb-2">
             How We Work
@@ -353,9 +354,9 @@ export default function Index() {
       </section>
 
       {/* FAQ Section */}
-      <section className="max-w-[1280px] mx-auto px-10 py-12">
+      <section className="max-w-[1280px] mx-auto p-5 sm:px-10 py-12">
         <div className="text-center mb-8">
-          <h2 className="text-[35px] leading-[28px] font-bold text-[#141414] mb-2">
+          <h2 className="text-[35px] leading-[40px] sm:leading-[28px] font-bold text-[#141414] mb-2">
             Frequently Asked Questions
           </h2>
           <p className="text-sm leading-[21px] text-[#737373]">
@@ -417,7 +418,7 @@ export default function Index() {
           <img 
             src="https://api.builder.io/api/v1/image/assets/TEMP/4953b8e8e7da6717153979b220041dd03c982554?width=1326" 
             alt="" 
-            className="w-[663px] h-[663px] object-contain"
+            className="w-full sm:w-[663px] sm:h-[663px]"
           />
         </div>
         
@@ -432,16 +433,7 @@ export default function Index() {
       </section>
 
       {/* Bottom Logo */}
-      <div className="max-w-[1280px] mx-auto px-10 pb-8">
-        <div className="flex items-center gap-4">
-          <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/897d2bbc34a197ac4270c40a2597b22431c2e8d8?width=302" 
-            alt="ETHRAH AI" 
-            className="h-4 w-[151px]"
-          />
-          <div className="w-px h-[23px] bg-border" />
-        </div>
-      </div>
+      
 
       <Footer />
     </div>

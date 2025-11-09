@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { toast } from "@/components/ui/use-toast";
 
 export default function CaseStudiesSection() {
   const [activeTab, setActiveTab] = useState<"automation" | "trading">(
@@ -48,7 +49,7 @@ export default function CaseStudiesSection() {
                   AI-Powered Licensing & Credential Automation for Healthcare
                   Professionals
                 </h3>
-                <p className="text-xl leading-[23px] text-[#484848]">
+                <p className="text-md sm:text-xl leading-[23px] text-[#484848]">
                   Accelerating healthcare licensing with AI-powered automation,
                   ETHRAH AI's credential solution streamlines and secures
                   professional verification for regulatory authorities
@@ -81,7 +82,7 @@ export default function CaseStudiesSection() {
                   Transforming maritime operations through real-time AI
                   insights.
                 </h3>
-                <p className="text-xl leading-[23px] text-[#484848]">
+                <p className="text-md sm:text-xl leading-[23px] text-[#484848]">
                   Ethrah AI's intelligent ship tracking solution revolutionizes
                   fleet management with real-time, AI-powered insights. By
                   combining live tracking, manual data input, and advanced
@@ -104,11 +105,20 @@ export default function CaseStudiesSection() {
                 <h3 className="text-[30px] font-bold leading-[34px] text-[#141414]">
                   Intelligent Algorithmic Trading Platform
                 </h3>
-                <p className="text-xl leading-[21px] text-[#484848]">
+                <p className="text-md sm:text-xl leading-[21px] text-[#484848]">
                   Developing a sophisticated trading platform with advanced
                   algorithms for optimized investment strategies.
                 </p>
-                <button className="h-8 px-4 rounded-lg bg-[#F2F2F2] text-[#141414] text-sm font-medium leading-[21px] hover:bg-[#E5E8EB] transition-colors">
+                <button
+                  className="h-8 px-4 rounded-lg bg-[#F2F2F2] text-[#141414] text-sm font-medium leading-[21px] hover:bg-[#E5E8EB] transition-colors"
+                  onClick={() =>
+                    toast({
+                      title: "Coming soon",
+                      description:
+                        "This section is under maintenance and will be available soon.",
+                    })
+                  }
+                >
                   View Full Case Study →
                 </button>
               </div>

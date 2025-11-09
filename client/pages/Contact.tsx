@@ -37,21 +37,17 @@ export default function Contact() {
       {/* Hero Section */}
   <section className="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-10 py-8 md:py-10">
         <div className="flex flex-col lg:flex-row items-center gap-8 p-10">
-          <div className="relative w-full max-w-[322px]">
-            <svg width="323" height="279" viewBox="0 0 323 279" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M136.907 13.6097C147.665 -4.53657 174.558 -4.53659 185.315 13.6097L224.541 79.7789C228.369 86.2361 229.797 93.5202 228.972 100.546C227.987 108.939 217.518 109.983 210.398 105.159C196.382 95.6634 179.349 90.0966 160.981 90.0966C113.132 90.0966 74.3418 127.875 74.3418 174.477C74.3418 192.164 79.9296 208.581 89.4796 222.143C96.3404 231.886 98.4312 244.875 91.7016 254.705L82.2868 268.456C77.777 275.044 70.1857 279 62.0566 279H27.9897C6.47518 279 -6.97119 256.317 3.78608 238.171L136.907 13.6097Z" fill="black"/>
-              <path d="M243.078 147.442C241.016 141.499 242.765 133.99 249.191 134.406C253.982 134.717 258.598 137.23 261.258 141.717L318.437 238.171C329.194 256.317 315.747 279 294.233 279H133.674C124.083 279 118.363 268.59 123.683 260.818C126.825 256.229 132.814 254.49 138.281 255.931C145.516 257.839 153.126 258.858 160.981 258.858C166.21 258.858 171.331 258.406 176.305 257.542C186.896 255.701 192.44 245.251 195.067 235.09C195.675 232.737 196.142 230.233 196.142 227.807C196.142 219.046 201.389 211.479 208.989 207.923C212.814 206.132 216.879 204.737 220.688 202.915C220.915 202.806 221.142 202.7 221.369 202.595C233.802 196.881 247.423 189.048 247.612 175.66C247.618 175.267 247.621 174.872 247.621 174.477C247.621 165.021 246.024 155.929 243.078 147.442Z" fill="black"/>
-            </svg>
+          <div className="w-full max-w-[322px]">
             <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/101b3c8d9e6ac6eee8c75567db07cc196cf12913?width=347" 
+              src="contact-logo.png" 
               alt="AI Visualization" 
-              className="absolute top-[90px] left-[74px] w-[173px] h-[169px]"
+              className="w-[50rem]"
             />
           </div>
           
           <div className="space-y-8 flex-1 text-center lg:text-left">
             <div className="space-y-2">
-              <h1 className="text-[48px] leading-[60px] font-black text-[#141414] tracking-[-2px]">
+              <h1 className="text-[32px] sm:text-[48px] sm:leading-[60px] font-black text-[#141414] tracking-[-2px]">
                 Let's Start Your AI Journey
               </h1>
               <p className="text-base leading-6 text-[#141414]">

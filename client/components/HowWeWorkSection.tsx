@@ -35,8 +35,8 @@ export default function HowWeWorkSection() {
   ];
 
   return (
-    <section className="w-full bg-[#FEFEFE] py-16">
-      <div className="max-w-[1280px] mx-auto px-10">
+    <section className="w-full bg-[#FEFEFE] sm:py-16">
+      <div className="max-w-[1280px] mx-auto p-5 sm:px-10">
         <div className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-[35px] font-bold leading-tight text-[#000] mb-4">
             How We Work
