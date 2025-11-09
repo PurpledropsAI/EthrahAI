@@ -10,11 +10,11 @@ export default function Header() {
       <div className="max-w-[1280px] mx-auto px-5 lg:px-10 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4">
           <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/897d2bbc34a197ac4270c40a2597b22431c2e8d8?width=302" 
+            src="/ethrah-logo.png" 
             alt="ETHRAH AI" 
-            className="h-4 w-[151px]"
+            className="w-[151px]"
           />
-          <div className="w-px h-[23px] bg-border hidden sm:block" />
+          {/* <div className="w-px h-[23px] bg-border hidden sm:block" /> */}
         </Link>
         
         {/* Desktop Navigation */}

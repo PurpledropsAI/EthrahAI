@@ -19,27 +19,27 @@ export default function CaseStudies() {
           </button>
         </div> */}
         
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-10 ">
-        <h2 className="text-4xl md:text-6xl lg:text-7xl font-black leading-tight md:leading-[64px] text-[#141414] mb-10 md:mb-16">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-10 mb-10">
+        <h2 className="text-4xl md:text-6xl lg:text-7xl font-black leading-tight md:leading-[64px] text-[#141414] sm:mb-10 md:mb-16">
           Case Studies
         </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative order-2 md:order-1 flex justify-center">
+            <div className="flex justify-center">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/3809c8e44daac37456f445a7544a38865790bcb2?width=1498"
+                src="case-logo.png"
                 alt="AI Brain Illustration"
-                className="w-full max-w-[600px] h-auto"
+                className="w-[400px]"
               />
             </div>
 
-            <div className="order-1 md:order-2 space-y-8">
+            <div className="ospace-y-8">
               <div className="space-y-2">
-                <h1 className="text-[48px] font-black leading-[60px] tracking-[-2px] text-[#000]">
+                <h1 className="text-[32px] sm:text-[48px] font-black sm:leading-[60px] tracking-[-2px] text-[#000]">
                   AI Solutions That Grow With You
                 </h1>
               </div>
 
-              <p className="text-base leading-6 text-[#000]">
+              <p className="text-[14px] sm:text-base leading-6 text-[#000] mb-2">
                 Ethrah AI delivers end-to-end AI solutions tailored to your
                 industry—from strategy to deployment. We handle the complexity
                 so you can focus on growth.

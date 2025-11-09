@@ -76,7 +76,7 @@ function AutomationContent() {
       </div>
 
       {/* Quick Insights */}
-  <div className="px-4 sm:px-6 md:px-10 mb-16 md:mb-[88px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-16 md:mb-[88px]">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[26px]">
           Quick Insights
         </h3>
@@ -89,7 +89,7 @@ function AutomationContent() {
       </div>
 
       {/* The Challenge */}
-  <div className="px-4 sm:px-6 md:px-10">
+      <div className="px-4 sm:px-6 md:px-10">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[51px]">
           The Challenge
         </h3>
@@ -142,7 +142,7 @@ function AutomationContent() {
       </div>
 
       {/* The Solution */}
-  <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[100px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[100px]">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[51px]">
           The Solution
         </h3>
@@ -180,7 +180,7 @@ function AutomationContent() {
       </div>
 
       {/* AI Tech Stack */}
-  <div className="px-4 sm:px-6 md:px-10 mb-12 md:mb-[50px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-12 md:mb-[50px]">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[40px]">
           AI Tech Stack
         </h3>
@@ -222,7 +222,7 @@ function AutomationContent() {
       </div>
 
       {/* How It Works */}
-  <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
         <h3 className="text-2xl md:text-[30px] font-bold leading-[34px] text-[#141414] text-center mb-[27px]">
           How It Works
         </h3>
@@ -268,7 +268,7 @@ function AutomationContent() {
       </div>
 
       {/* Credential Automation Workflow */}
-  <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
         {/* Eligibility Verification */}
         <div className="px-10 mb-[50px]">
           <h3 className="text-[25px] font-bold leading-[21px] text-black text-center mb-[51px]">
@@ -292,7 +292,7 @@ function AutomationContent() {
       </div>
 
       {/* Outcomes & Impact */}
-  <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px]">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[40px] md:mb-[67px]">
           Outcomes & Impact
         </h3>
@@ -309,8 +309,6 @@ function AutomationContent() {
               title="Processing Speed"
               description="Dramatically faster time-to-licensure for qualified professionals"
             />
-          </div>
-          <div className="grid grid-cols-2 gap-x-[84px]">
             <ImpactCard
               metric="50-100% Savings"
               title="Cost Reduction"
@@ -321,8 +319,6 @@ function AutomationContent() {
               title="Quality Assurance"
               description="Consistent, thorough evaluation across all applications"
             />
-          </div>
-          <div className="grid grid-cols-2 gap-x-[84px]">
             <ImpactCard
               metric="65M+ Capacity"
               title="Scalability"
@@ -338,7 +334,7 @@ function AutomationContent() {
       </div>
 
       {/* Market Opportunity */}
-      <div className="px-4 md:px-10 mb-[157px]">
+      <div className="px-4 md:px-10 py-10 sm:mb-[100px]">
         <h3 className="text-xl md:text-[25px] font-bold leading-[21px] text-black text-center mb-[51px]">
           Market Opportunity
         </h3>
@@ -398,7 +394,7 @@ function AutomationContent() {
       </div>
 
       {/* Trading & Finance Preview */}
-  <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px] border-y border-black py-10 md:py-[51px]">
+      <div className="px-4 sm:px-6 md:px-10 mb-20 md:mb-[157px] border-y border-black py-10 md:py-[51px]">
         <div className="flex flex-col md:flex-row gap-8 md:gap-[96px] max-w-[1087px] mx-auto">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/7a99c2764a7a12d9ea5cef679871eef084b54442?width=1024"
